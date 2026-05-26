@@ -1,4 +1,4 @@
-const apikey="3067259701e947f7593d9d00caf2ae84";
+const apikey=config.WEATHER_API_KEY;
 const card=document.querySelector(".card");
 document.querySelector(".weatherForm").addEventListener("submit", async event=>{
     event.preventDefault();
